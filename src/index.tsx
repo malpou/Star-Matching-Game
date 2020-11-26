@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { StarMatch } from './components/StarMatch';
 import './styles/index.css';
-import StartMatch from './components/StarMatch';
 
 ReactDOM.render(
   <React.StrictMode>
-    <StartMatch />
+    <StarMatch />
   </React.StrictMode>,
   document.getElementById('root')
 );
